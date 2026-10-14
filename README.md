@@ -16,7 +16,7 @@ A small command-line tool that turns a messy folder (hello, Downloads) into a ti
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/file-organizer.git
+git clone https://github.com/brrssm/file-organizer.git
 cd file-organizer
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
