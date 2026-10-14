@@ -2,7 +2,6 @@
 
 A small command-line tool that turns a messy folder (hello, Downloads) into a tidy one. Preview first, confirm, and undo whenever you want.
 
-![demo](docs/demo.gif)
 
 ## Features
 
