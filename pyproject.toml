@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-organizer"
+version = "1.0.0"
+description = "A terminal tool that sorts messy folders into tidy ones, with preview and undo."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["rich>=13.0"]
+
+[project.scripts]
+organizer = "organizer.cli:main"
+
+[tool.setuptools]
+packages = ["organizer"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
